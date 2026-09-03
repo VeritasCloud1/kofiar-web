@@ -8,7 +8,7 @@ on:
 
 jobs:
   list-of-ingredients-1:
-    runs-on: digitalwitch-runner
+    runs-on: ubuntu-latest
     steps:
       uses: actions/checkout@v3
         name:hosthtml
@@ -17,7 +17,7 @@ jobs:
 
 
    go-to-the-market-2:
-    runs-on: digitalwitch-runner
+    runs-on: ubuntu-latest
     steps:
       uses: actions/checkout@v3
          name:going-to-the-market
@@ -25,7 +25,7 @@ jobs:
 
 
    setup-gas-for-cooking-3:
-    runs-on: digitalwitch-runner
+    runs-on: ubuntu-latest
     steps:
       uses: actions/checkout@v3
          name:setting-up-gas
@@ -33,7 +33,7 @@ jobs:
 
 
    perboil-meat-4:
-    runs-on: digitalwitch-runner
+    runs-on: ubuntu-latest
     steps:
       uses: actions/checkout@v3
          name:preparing-meat
